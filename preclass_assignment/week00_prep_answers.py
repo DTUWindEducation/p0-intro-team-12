@@ -1,6 +1,7 @@
 # Exercise 1
 def greet(name):
     return print("Hello, " + name + "!")
+
 print("\n\nThe answer to exercise 1 is:")
 greet("World")
 

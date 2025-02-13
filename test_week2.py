@@ -38,11 +38,11 @@ def test_fibonacci_stop():
     """Check fibonacci functions works as expected."""
     # given
     max = 30
-    out = [0,1, 1, 2, 3, 5, 8, 13, 21]
+    exp_out = [0, 1, 1, 2, 3, 5, 8, 13, 21]
     # when
-    fxn.fibonacci_stop(max)
+    out = fxn.fibonacci_stop(max)
     # then
-    assert fxn == out
+    assert exp_out == out
 
 
 def test_clean_pitch():

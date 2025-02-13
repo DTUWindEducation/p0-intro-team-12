@@ -38,7 +38,7 @@ def test_fibonacci_stop():
     """Check fibonacci functions works as expected."""
     # given
     max = 30
-    out = [1, 1, 2, 3, 5, 8, 13, 21]
+    out = [0,1, 1, 2, 3, 5, 8, 13, 21]
     # when
     fxn.fibonacci_stop(max)
     # then
